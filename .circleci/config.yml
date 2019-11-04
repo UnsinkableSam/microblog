@@ -47,20 +47,20 @@ jobs:
       - run:
           name: run integration tests
           command: |
-            . venv/bin/activate
+            . .venv/bin/activate
             make test-integration
 
       - run:
           name: run unit tests
           command: |
-            . venv/bin/activate
+            . .venv/bin/activate
             make test-unit
 
 
       - run:
           name: run validate
           command: |
-            . venv/bin/activate
+            . .venv/bin/activate
             make validate
 
 
