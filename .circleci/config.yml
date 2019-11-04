@@ -50,14 +50,14 @@ jobs:
             . venv/bin/activate
             make test-integration
 
-       - run:
+      - run:
           name: run unit tests
           command: |
             . venv/bin/activate
             make test-unit
 
 
-       - run:
+      - run:
           name: run validate
           command: |
             . venv/bin/activate
