@@ -17,6 +17,11 @@ jobs:
 
     working_directory: ~/repo
 
+
+    environment:
+      FLASK_ENV: test
+      FLASK_APP: microblog.py
+
     steps:
       - checkout
 
