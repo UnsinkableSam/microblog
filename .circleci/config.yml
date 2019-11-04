@@ -65,5 +65,4 @@ jobs:
 
 
       - store_artifacts:
-          path: test-reports
-          destination: test-reports
+          path: path: tests/coverage_html
